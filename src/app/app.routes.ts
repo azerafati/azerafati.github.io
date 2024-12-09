@@ -1,6 +1,4 @@
-import { Routes } from '@angular/router';
-import {MatrixComponent} from './matrix/matrix.component';
+import { Routes } from '@angular/router'
+import { MatrixComponent } from './matrix/matrix.component'
 
-export const routes: Routes = [
-
-];
+export const routes: Routes = []

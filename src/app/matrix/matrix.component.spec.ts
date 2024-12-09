@@ -1,23 +1,22 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing'
 
-import { MatrixComponent } from './matrix.component';
+import { MatrixComponent } from './matrix.component'
 
 describe('MatrixComponent', () => {
-  let component: MatrixComponent;
-  let fixture: ComponentFixture<MatrixComponent>;
+  let component: MatrixComponent
+  let fixture: ComponentFixture<MatrixComponent>
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MatrixComponent]
-    })
-    .compileComponents();
+      imports: [MatrixComponent],
+    }).compileComponents()
 
-    fixture = TestBed.createComponent(MatrixComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+    fixture = TestBed.createComponent(MatrixComponent)
+    component = fixture.componentInstance
+    fixture.detectChanges()
+  })
 
   it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+    expect(component).toBeTruthy()
+  })
+})

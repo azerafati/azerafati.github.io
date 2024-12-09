@@ -1,2 +1,8 @@
-<az-matrix></az-matrix>
-<router-outlet/>
+<section id="matrix-container">
+  <az-matrix class="h-screen" />
+  <div class="absolute bottom-10 left-0 z-10 w-full text-center">
+    <a mat-stroked-button href="/#second">Alireza Zerafati</a>
+  </div>
+</section>
+<div class="h-screen w-full" id="second">second div to scroll to</div>
+<router-outlet />

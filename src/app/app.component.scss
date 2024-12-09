@@ -1,0 +1,9 @@
+#matrix-container {
+  --mdc-protected-button-container-height: 50px;
+
+  a {
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
+    background: transparent !important;
+    backdrop-filter: blur(2px);
+  }
+}
