@@ -1,12 +1,19 @@
-import { AfterViewInit, Component, computed, ElementRef, HostListener, viewChild } from '@angular/core'
+import {
+  AfterViewInit,
+  Component,
+  computed,
+  ElementRef,
+  HostListener,
+  viewChild,
+  ChangeDetectionStrategy,
+} from '@angular/core'
 
 @Component({
   selector: 'az-matrix',
   imports: [],
   templateUrl: './matrix.component.html',
-  standalone: true,
   styleUrl: './matrix.component.scss',
-  host: { ngSkipHydration: 'true' },
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MatrixComponent implements AfterViewInit {
   drops: number[] = []

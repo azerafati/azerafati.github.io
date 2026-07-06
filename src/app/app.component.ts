@@ -4,7 +4,7 @@ import { MatrixComponent } from './matrix/matrix.component'
 import { MatButtonModule } from '@angular/material/button'
 
 @Component({
-  selector: 'app-root',
+  selector: 'az-root',
   imports: [RouterOutlet, MatrixComponent, MatButtonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
